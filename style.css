@@ -1,0 +1,43 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+}
+
+div {
+    border: 3px red;
+    margin: 5px;
+    background-color: nightblue;
+}
+
+/* ID селектор */
+#outer-block {
+    background-color: orange;
+}
+
+/* Стилі для блоків 3, 4, 5 */
+.block-3, .block-4, .block-5 {
+    background-color: spacegrey;
+    padding: 5px;
+}
+
+.block-3 {
+    width: 20%;
+    float: left;
+}
+
+.block-4 {
+    width: 55%;
+    float: left;
+}
+
+.block-5 {
+    width: 15%;
+    float: left;
+}
+
+/* Вирівнювання */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
